@@ -1,0 +1,29 @@
+$version: "3.2.1";
+$corner-icon-distance: 15px;
+
+/* !Version: #{$version} */
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.corner-icon {
+	position: fixed;
+
+	.top {
+		top: $corner-icon-distance
+	}
+	.bottom {
+		bottom: $corner-icon-distance;
+	}
+	.left {
+		left: $corner-icon-distance;
+	}
+	.right {
+		right: $corner-icon-distance;
+	}
+}
+
+
+@import "version-piece.scss";

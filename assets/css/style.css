@@ -1,0 +1,27 @@
+/* !Version: 3.2.1 */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.corner-icon {
+  position: fixed;
+}
+.corner-icon .top {
+  top: 15px;
+}
+.corner-icon .bottom {
+  bottom: 15px;
+}
+.corner-icon .left {
+  left: 15px;
+}
+.corner-icon .right {
+  right: 15px;
+}
+
+#version-piece {
+  background-color: yellow;
+}
+
+/*# sourceMappingURL=style.css.map */
