@@ -1,7 +1,12 @@
+// @Author: flizzet
+// @Date:   2018-11-18T04:55:31-08:00
+// @Last modified by:   flizzet
+// @Last modified time: 2018-11-18T05:51:55-08:00
+
 $version: "3.2.1";
 $corner-icon-distance: 15px;
 
-/* !Version: #{$version} */
+/* !Paydro Version [#{$version}] */
 
 * {
 	padding: 0px;
@@ -11,19 +16,30 @@ $corner-icon-distance: 15px;
 .corner-icon {
 	position: fixed;
 
-	.top {
+	&.top {
 		top: $corner-icon-distance
 	}
-	.bottom {
+	&.bottom {
 		bottom: $corner-icon-distance;
 	}
-	.left {
+	&.left {
 		left: $corner-icon-distance;
 	}
-	.right {
+	&.right {
 		right: $corner-icon-distance;
 	}
 }
 
+#paydro-title {
+	p {
+
+	}
+}
+
+.full-page {
+	width: 100vw;
+	height: 100vh;
+}
 
 @import "version-piece.scss";
+@import "index.scss";

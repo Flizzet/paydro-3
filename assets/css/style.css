@@ -1,4 +1,4 @@
-/* !Version: 3.2.1 */
+/* !Paydro Version [3.2.1] */
 * {
   padding: 0px;
   margin: 0px;
@@ -7,21 +7,47 @@
 .corner-icon {
   position: fixed;
 }
-.corner-icon .top {
+.corner-icon.top {
   top: 15px;
 }
-.corner-icon .bottom {
+.corner-icon.bottom {
   bottom: 15px;
 }
-.corner-icon .left {
+.corner-icon.left {
   left: 15px;
 }
-.corner-icon .right {
+.corner-icon.right {
   right: 15px;
 }
 
+.full-page {
+  width: 100vw;
+  height: 100vh;
+}
+
 #version-piece {
-  background-color: yellow;
+  text-transform: uppercase;
+  width: 100vh;
+  position: fixed;
+  bottom: 0%;
+  left: 100%;
+  -webkit-transform-origin: 0% 100%;
+  transform-origin: 0% 100%;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  padding-left: 15px;
+}
+#version-piece:after {
+  content: "Version: 3.2.1";
+}
+
+#intro {
+  width: 100vw;
+  height: 100vh;
+}
+#intro .text-piece {
+  width: 100%;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

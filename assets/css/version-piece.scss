@@ -1,3 +1,21 @@
+// @Author: flizzet
+// @Date:   2018-11-18T04:50:27-08:00
+// @Last modified by:   flizzet
+// @Last modified time: 2018-11-18T05:53:52-08:00
+
 #version-piece {
-	background-color: yellow;
+	text-transform: uppercase;
+	width: 100vh;
+	position: fixed;
+	bottom: 0%;
+	left: 100%;
+	-webkit-transform-origin: 0% 100%;
+	        transform-origin: 0% 100%;
+	-webkit-transform: rotate(-90deg);
+	        transform: rotate(-90deg);
+	padding-left: $corner-icon-distance;
+
+	&:after {
+		content: "Version: " +  $version;
+	}
 }
