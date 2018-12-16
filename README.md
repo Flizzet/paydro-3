@@ -1,2 +1,2 @@
-# paydro-3
-[2018] Open source clone work of Paydro 3
+# Via Spinner
+## Referral Game for Via built in NodeJS & Pixi
